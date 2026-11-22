@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* H1: cambiaremos el color de fondo, el color del texto y pondremos un borde lateral de
+otro color. */
+h1 {
+ background-color: aqua;
+ color: blue;
+ border-left: solid 10px red;
+}
+
+/* mg: Tendrá un borde negro redondeado, junto a un sombreado de la imagen. Todas las
+imágenes tendrán el mismo tamaño en pixels, por ejemplo 300px. */
+img {
+    border: solid 5px;
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+    width: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    border: solid blue;
+}
+
